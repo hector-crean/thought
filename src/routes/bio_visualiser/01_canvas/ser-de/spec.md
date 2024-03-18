@@ -1,0 +1,1 @@
+Overview of file types associated with protein data structures

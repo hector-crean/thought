@@ -1,0 +1,50 @@
+.tools_panel_container {
+
+  --color-surface-canvas: #eee;
+  --color-surface-panel: #fff;
+  --color-surface-subtle: #f3f3f3;
+  --color-divider: #eee;
+  --color-foreground-600: #333;
+  --color-foreground-500: #444;
+  --color-foreground-400: #555;
+  --color-foreground-300: #666;
+  --color-foreground-200: #888;
+  --color-foreground-100: #999;
+  --color-primary: #0044ff;
+  --color-white: #fff;
+  --shadow-popup: 0px 2px 4px rgba(0, 0, 0, 0.1),
+    0px 0px 0px 1px rgba(0, 0, 0, 0.05);
+    
+    position: absolute;
+    bottom: 24px;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: transparent;
+
+  }
+  
+  .tools_panel {
+    box-shadow: var(--shadow-popup);
+    border-radius: 12px;
+    background-color: var(--color-surface-panel);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .tools_panel_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+  }
+  
+  .seperator {
+    width: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    align-self: stretch;
+  }
